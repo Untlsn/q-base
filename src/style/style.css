@@ -195,3 +195,28 @@ a {
 .header__logo { cursor: pointer }
 
 
+.search-bar {
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #232323;
+  width: 100vw;
+  height: 5em;
+  visibility: hidden;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: .5s;
+}
+.search-bar-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+header__button--search:hover .search-bar {
+  padding: 7px 10px;
+  background-color: #232323;
+  border-radius: 2px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+  font-weight: lighter;
+  text-align: center;
+}
