@@ -25,6 +25,10 @@ class MySqlN {
     $sqlCode = "SELECT title, description, author, likes, img_name from qbarq ORDER BY id DESC LIMIT $limit";
     return $this->getAssoc($sqlCode);
   }
+  function getQBarQByNamelike(string $namelike, int $limit) {
+    $sqlCode = "SELECT title, description, author, likes, img_name FROM qbarq WHERE title like '%$namelike%' LIMIT $limit";
+    return $this->getAssoc($sqlCode);
+  }
 
   function getRandom(string $tableName, int $limit) {
     

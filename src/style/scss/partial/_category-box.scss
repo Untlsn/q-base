@@ -13,8 +13,8 @@
   visibility: hidden;
   width: 50vw;
   .category {
-      box-shadow: none;
-      width: 100px;
+    box-shadow: none;
+    width: 100px;
   }
   .header__nav-option--category:hover + &, &:hover { visibility: visible }
 }

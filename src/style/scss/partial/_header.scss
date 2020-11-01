@@ -1,7 +1,7 @@
 
 .header {
   @include gray-background;
-  border-bottom: 1px solid #ffffff1a;
+  border-bottom: 1px solidwhitefff1a;
   display: grid;
   grid-template-columns: repeat(8,1fr);
   height: $header-height;
@@ -26,9 +26,9 @@
   &__nav { grid-column: 3/6 }
   &__buttons-wrapper { grid-column: 6/8 }
   &__button {
-    background-color: #fff;
-    border: 1px solid rgba(0,0,0,0.5);
+    background-color:white;
     font-size: 0.9em;
+    border: 1px solid rgba(0,0,0,0.5);
     padding: 7px 15px;
     @include hover-cursor;
     &--login, &--add {
@@ -39,7 +39,7 @@
     }
     &--add {
       background-color: $main-red-color;
-      color: #fff;
+      color:white;
     }
   }
   &__nav-option {
