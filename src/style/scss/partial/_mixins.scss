@@ -1,0 +1,8 @@
+@mixin gray-background {
+  background-color: #232323;
+}
+@mixin hover-cursor {
+  &:hover {
+    cursor: pointer;
+  }
+}

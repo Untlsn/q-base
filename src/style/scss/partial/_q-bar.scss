@@ -1,0 +1,45 @@
+.q-bars-wrapper {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(2,1fr);
+}
+.q-bar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.q-bar-q {
+  @include gray-background;
+  margin: 15px 0;
+  padding: 15px 0;
+  width: 30em;
+  &__author, &__bottom, &__description, &__title { margin: 0 25px }
+  &__title {
+    font-size: 1.3em;
+    @include hover-cursor;
+  }
+  &__description { font-weight: lighter }
+  &__author {
+    color: hsla(0,0%,100%,0.3);
+    font-size: 0.7em;
+  }
+  &__img {
+    background-image: url(../img/temp-img.png);
+    background-size: cover;
+    height: 20em;
+    width: 100%;
+    @include hover-cursor;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  &__start-q {
+    background-color: $main-red-color;
+    font-size: 0.8em;
+    padding: 2px 20px;
+    text-transform: uppercase;
+    @include hover-cursor;
+  }
+}

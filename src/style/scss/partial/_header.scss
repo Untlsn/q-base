@@ -1,0 +1,56 @@
+
+.header {
+  @include gray-background;
+  border-bottom: 1px solid #ffffff1a;
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  height: $header-height;
+  position: fixed;
+  text-transform: uppercase;
+  width: 100vw;
+  &__buttons-wrapper, &__logo { margin: 0.75em 0 }
+  &__logo {
+    grid-column: 2/3;
+    background: {
+      repeat: no-repeat;
+      size: contain;
+    }
+    @include hover-cursor;
+  }
+  &__buttons-wrapper, &__nav {
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-evenly;
+  }
+  &__nav { grid-column: 3/6 }
+  &__buttons-wrapper { grid-column: 6/8 }
+  &__button {
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.5);
+    font-size: 0.9em;
+    padding: 7px 15px;
+    @include hover-cursor;
+    &--login, &--add {
+      border-color: $main-red-color;
+    }
+    &--login {
+      color: $main-red-color;
+    }
+    &--add {
+      background-color: $main-red-color;
+      color: #fff;
+    }
+  }
+  &__nav-option {
+    color: $gray-text;
+    height: 110%;
+    line-height: 75px;
+    &:hover {
+      color: white;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+  }
+  &__space { height: 4.5em }
+}
