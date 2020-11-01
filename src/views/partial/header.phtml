@@ -1,0 +1,19 @@
+<header class="header">
+  <a href="/" class="header__logo"></a>
+  <nav class="header__nav">
+    <a class="header__nav-option" href="/popular">popularne</a>
+    <div class="header__nav-option header__nav-option--category">kategorie</div>
+    <div class="catoegory-box">
+      <?php $indexCode->createCategory(null) ?>
+    </div>
+    <a class="header__nav-option" href="/new">nowe</a>
+    <a class="header__nav-option" href="/by-me">o nas</a>
+  </nav>
+  <div class="header__buttons-wrapper">
+    <div class="header__button header__button--search" style="color: gray;"><i class="fas fa-search"></i>szukaj</div>
+    <div class="header__button header__button--login">zaloguj</div>
+    <div class="header__button header__button--add">dodaj</div>
+  </div>
+</header>
+<div class="header__space"></div>
+
