@@ -13,16 +13,40 @@
       $mysql->getCategories()
     );
   ?>
+  <style>
+    .main {
+      margin: 100px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .author, .code {
+      background-color: #232323;
+      padding: 25px;
+      border-radius: 25px;
+      width: 50%;
+    }
+    .author {
+
+    }
+    .code {
+      margin-top: 15px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      text-align: end;
+    }
+  </style>
 </head>
 <body>
   <?php require './src/views/partial/header.phtml' ?>
-  <main>
+  <main class="main">
     <div class="author">
-      <p>Twórca projektu: Filip Skoczeń</p>
+      Twórca projektu: Filip Skoczeń
     </div>
-    <div class="code">
-      <a href="https://github.com/Untlsn/q-base.git" target="_blank">Kod źródłowy</a>
-    </div>
+    <a href="https://github.com/Untlsn/q-base.git" target="_blank" class="code">
+      Kod źródłowy
+    </a>
   </main>
+<script src="https://kit.fontawesome.com/2d55a3e5cd.js" crossorigin="anonymous"></script>
 </body>
 </html>
