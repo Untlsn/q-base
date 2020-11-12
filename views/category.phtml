@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <?php require './src/views/partial/style.phtml' ?>
-  <title>Popularne</title>
+  <?php require './views/partial/style.phtml' ?>
+  <title>Category</title>
   <?php
-    require './src/php/index-code.php';
-    require './src/php/my-sql-n.php';
+    require './php/index-code.php';
+    require './php/my-sql-n.php';
     $mysql = new MySqlN();
     $indexCode = new IndexCode(
       $mysql->getCategories(8),
-      $mysql->getQBARQByLikes(20)
+      $mysql->getQBarQWithCategory(20, @$_GET['category_id'])
     );
   ?>
 </head>
 <body>
-  <?php require './src/views/partial/base.phtml' ?>
+  <?php require './views/partial/base.phtml' ?>
 </body>
 </html>

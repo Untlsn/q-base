@@ -33,13 +33,13 @@ class IndexCode {
   private function createQBarQ($qBarQData) {
     ?>
       <section class="q-bar-q">
-        <a href="q-<?= $qBarQData['id'] ?>">
+        <a href="q?q-id=<?= $qBarQData['id'] ?>">
           <h1 href="/q-<?= $qBarQData['id'] ?>" class="q-bar-q__title"><?= $qBarQData['title'] ?></h1>
         </a>
         <p class="q-bar-q__description"><?= $qBarQData['description'] ?></p>
         <div class="q-bar-q__author"><?= $qBarQData['author'] ?></div>
-        <a href="q-<?= $qBarQData['id'] ?>">
-          <div class="q-bar-q__img" style="background-image: url(./images-from-q/<?= $qBarQData['img_name'] ?>);"></div>
+        <a href="q?q-id=<?= $qBarQData['id'] ?>">
+          <div class="q-bar-q__img" style="background-image: url(./img/for-q/<?= $qBarQData['img_name'] ?>);"></div>
         </a>
         <div class="q-bar-q__bottom">
           <div class="q-bar-q__likes"><i class="fas fa-heart" style="margin-right: 3px;"></i>

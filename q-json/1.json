@@ -1,0 +1,12 @@
+{
+  "questions": [
+    {
+      "title": "Czy chciałbyś być czarownicą?",
+      "answers": [
+        "Tak, to moje marzenie",
+        "Chętnie bym spróbował",
+        "Nie, to beznadziejne"
+      ]
+    }
+  ]
+}
