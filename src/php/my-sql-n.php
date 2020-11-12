@@ -1,6 +1,8 @@
 <?php
 class MySqlN {
   private $conn;
+  private define('QBARQ_BASE', "SELECT title, description, author, likes, img_name, ")
+
   function __construct(){
     $this->conn = new mysqli('localhost', 'root', '', 'qbase');
   }
