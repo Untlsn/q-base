@@ -1,25 +1,10 @@
 <?php
 
 class IndexCode {
-
-  private $categories = [];
   private $qBarQ = [];
 
-  function __construct($categories = [], $qBarQ = []){
+  function __construct($qBarQ = []){
     $this->qBarQ = $qBarQ;
-    $this->categories = $categories;
-  }
-
-  function createCategory($to) {
-    if($to == null)
-      $to = count($this->categories);
-    for($i = 0; $i < $to; $i++):
-      $category = $this->categories[$i];
-    ?>
-      <a class="category" href="/category?category_id=<?=$category['id']?>">
-        <?=$category['name']?>
-      </a>
-    <?php endfor;
   }
 
   function createQBar(int $eval, int $howMany) {
@@ -33,12 +18,12 @@ class IndexCode {
   private function createQBarQ($qBarQData) {
     ?>
       <section class="q-bar-q">
-        <a href="q?q-id=<?= $qBarQData['id'] ?>">
+        <a href="q.php?q-id=<?= $qBarQData['id'] ?>">
           <h1 href="/q-<?= $qBarQData['id'] ?>" class="q-bar-q__title"><?= $qBarQData['title'] ?></h1>
         </a>
         <p class="q-bar-q__description"><?= $qBarQData['description'] ?></p>
         <div class="q-bar-q__author"><?= $qBarQData['author'] ?></div>
-        <a href="q?q-id=<?= $qBarQData['id'] ?>">
+        <a href="q.php?q-id=<?= $qBarQData['id'] ?>">
           <div class="q-bar-q__img" style="background-image: url(./img/for-q/<?= $qBarQData['img_name'] ?>);"></div>
         </a>
         <div class="q-bar-q__bottom">
