@@ -1,0 +1,72 @@
+{
+  "questions": [
+    {
+      "title": "Ile przeciętnie trwa ciąża u jeży?",
+      "img": "images_772f9f6b5214.jpg",
+      "answers": [
+        "Od 5 do 7 tygodni.",
+        "Od 4 do 8 tygodni."
+      ],
+      "good": "0"
+    },
+    {
+      "title": "Na jakich terenach nie występują jeże?",
+      "img": "images_166be2900826.jpg",
+      "answers": [
+        "Azji",
+        "Ameryki",
+        "Afryki"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "O jakiej porze jeże są najbardziej aktywne?",
+      "img": "images_e9f4554c4e2f.jpg",
+      "answers": [
+        "Wcześnie rano, gdy tylko wstanie słońce.",
+        "Za dnia, gdy słońce świeci mocno i jest ciepło.",
+        "Późnym wieczorem lub w nocy."
+      ],
+      "good": "2"
+    },
+    {
+      "title": "Jeże są mięsożerne czy roślinożerne?",
+      "img": "images_5357aa933f18.jpeg",
+      "answers": [
+        "Roślinożerne",
+        "Mięsożerne"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Jakie gatunki jeży występują w Polsce?",
+      "img": "images_4d2ff1c4b8cc.jpg",
+      "answers": [
+        "Europejski i Wschodni.",
+        "Europejski i Szary.",
+        "Wschodni i Amerykański."
+      ],
+      "good": "0"
+    },
+    {
+      "title": "Czy jeże tolerują laktozę?",
+      "img": "images_6ae096aa657f.jpg",
+      "answers": [
+        "Tak, jeże bardzo lubią mleko.",
+        "Tak, ale w niewielkich ilościach.",
+        "Nie, jest ona dla nich bardzo szkodliwa."
+      ],
+      "good": "2"
+    },
+    {
+      "title": "Czy jeże są pod ochroną?",
+      "img": "images_cd95937a81df.jpg",
+      "answers": [
+        "Tak, jeże są chronionym gatunkiem.",
+        "Nie, występują pospolicie."
+      ],
+      "good": "0"
+    }
+  ],
+  "resultImg": "images_290082637d72.jpg"
+}

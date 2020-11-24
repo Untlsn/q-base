@@ -1,0 +1,80 @@
+@import './partial/varibles';
+@import './partial/mixins';
+@import './partial/root';
+@import './partial/header';
+
+main {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@mixin question-and-result {
+  margin: 10px;
+  width: 50vw;
+  padding: 15px;
+  @include gray-background;
+  @include all-radius;
+
+  &__img {
+    margin: 25px 0;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+  }
+}  
+@mixin all-radius {
+  border-radius: 5px;
+}
+
+.question {
+  @include question-and-result;
+
+  &__title {
+    padding: 15px;
+    font-weight: normal;
+    text-align: center;
+    background-color: #1a1a1a;
+    @include all-radius;
+  }
+
+  &__answers-wrapper {
+    display: grid;
+    gap: 15px;
+  }
+  &__answer {
+    padding: 15px;
+    padding-left: 30px;
+    background-color: #282828;
+    border: 5px #333 solid;
+    @include all-radius;
+
+    &:hover {
+      cursor: pointer;
+      border-color: $main-red-color;
+    }
+  }
+}
+
+.clicked {
+  border-color: $main-red-color;
+}
+
+.result {
+  display: none;
+  @include question-and-result;
+  margin-top: 40px;
+  margin-bottom: 180px;
+
+  &__score {
+    background-color: $main-red-color;
+    padding: 10px;
+    @include all-radius;
+  }
+
+  &__img {
+    height: 400px;
+  }
+}

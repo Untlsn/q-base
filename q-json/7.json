@@ -1,0 +1,131 @@
+{
+  "questions": [
+    {
+      "title": "Po śmierci Crewmate może nadal wykonywać zadania.",
+      "img": "images_890724e8dd1b.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "0"
+    },
+    {
+      "title": "Gra jest wzorowana na grze planszowej \"Mafia\".",
+      "img": "images_ca834d8ff7b3.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Twórcy \"Among Us\" stworzyli również grę \"The Henry Stickmin Collection\".",
+      "img": "images_dbc407990544.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "0"
+    },
+    {
+      "title": "Jeśli zostajesz zabity, to Twoje zwierzątko (pet) umiera razem z Tobą.",
+      "img": "images_f71837a5d797.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Among Us powstało po Fall Guys.",
+      "img": "images_487c54e2fb08.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Tylko Crewmate może zgłosić ciało.",
+      "img": "images_eecc2c0c454a.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Na monitoringu widać tylko korytarze.",
+      "img": "images_9479cd96a29f.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "0"
+    },
+    {
+      "title": "Crewmate'ci używają statku z mapy \"The Skeld\" żeby przenieść się z jednej planety na drugą.",
+      "img": "images_789de0fb5a74.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Emergency Meeting można uruchomić jedynie przyciskiem.",
+      "img": "images_e5f5fe4ac675.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "0"
+    },
+    {
+      "title": "Impostor do zabijania używa jedynie broni.",
+      "img": "images_578736a9e675.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Planowano stworzenie \"Among Us 2\", jednak twórcy finalnie odłożyli ten pomysł.",
+      "img": "images_2c0c6501f0b9.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "0"
+    },
+    {
+      "title": "Mapa \"Polus\" to planeta.",
+      "img": "images_cb40dcd6df88.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "0"
+    },
+    {
+      "title": "The Skeld to jedyna mapa, w której wentylacja nie jest podłączona na 100%.",
+      "img": "images_838878b93af3.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "0"
+    },
+    {
+      "title": "Żeby zacząć rundę, musi być minimalnie 5 osób w lobby.",
+      "img": "images_8c55dfca7f87.jpeg",
+      "answers": [
+        "Prawda",
+        "Fałsz"
+      ],
+      "good": "1"
+    }
+  ],
+  "resultImg": "images_294831f2e909.jpeg"
+}

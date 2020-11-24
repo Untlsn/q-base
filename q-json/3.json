@@ -1,0 +1,105 @@
+{
+  "questions": [
+    {
+      "title": "Ile powstało filmów z serii \"Halloween\"?",
+      "img": "images_519f9cf2fc36.jpg",
+      "answers": [
+        "7",
+        "11",
+        "13"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "W którym roku była premiera filmu \"Teksańska masakra piłą mechaniczną\"?",
+      "img": "images_267f5db311fc.jpg",
+      "answers": [
+        "1969",
+        "1970",
+        "1974"
+      ],
+      "good": "2"
+    },
+    {
+      "title": "Kto zainspirował Jordana Peele'a do stworzenia filmu \"Uciekaj!\"?",
+      "img": "images_812e2bd9c13c.jpg",
+      "answers": [
+        "Eddie Murphy",
+        "Chris Rock",
+        "Robin Williams"
+      ],
+      "good": "0"
+    },
+    {
+      "title": "W którym filmie Jason Voorhees po raz pierwszy nosi swoją charakterystyczną hokejową maskę?",
+      "img": "images_ff9c2b850daa.jpg",
+      "answers": [
+        "Piątek, trzynastego",
+        "Piątek, trzynastego III",
+        "Piątek, trzynastego IV: Ostatni rozdział"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Który z tych filmów NIE jest oparty na książce?",
+      "img": "images_c1871b5abe73.jpg",
+      "answers": [
+        "Psychoza",
+        "Dziecko Rosemary",
+        "Dziedzictwo. Hereditary"
+      ],
+      "good": "2"
+    },
+    {
+      "title": "W jakim filmie John Travolta zagrał swoją pierwszą rolę?",
+      "img": "images_a33d76bad707.jpg",
+      "answers": [
+        "Diabelski deszcz",
+        "Carrie",
+        "Omen"
+      ],
+      "good": "0"
+    },
+    {
+      "title": "Jak ma na imię główna bohaterka \"The Blair Witch Project\"?",
+      "img": "images_c1674fd158d8.jpg",
+      "answers": [
+        "Rebecca",
+        "Heather",
+        "Courtney"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Jaki horror jako pierwszy dostał nominację do Oscara?",
+      "img": "images_37e6b7120548.jpg",
+      "answers": [
+        "Lśnienie",
+        "Milczenie owiec",
+        "Egzorcysta"
+      ],
+      "good": "2"
+    },
+    {
+      "title": "Kto był zabójcą w filmie \"Krzyk 2\"?",
+      "img": "images_438e5d7512b2.jpg",
+      "answers": [
+        "Cotton Weary",
+        "Pani Loomis",
+        "Charlie Walker"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Kto został pierwszy opętany w filmie \"Martwe zło\"?",
+      "img": "images_d0a987826b00.jpg",
+      "answers": [
+        "Linda",
+        "Cheryl",
+        "Scott"
+      ],
+      "good": "1"
+    }
+  ],
+  "resultImg": ""
+}

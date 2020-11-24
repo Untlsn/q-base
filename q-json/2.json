@@ -1,0 +1,75 @@
+{
+  "questions": [
+    {
+      "title": "Ile powinniśmy pić wody dziennie?",
+      "img": "images_a99f7f23feeb.jpg",
+      "answers": [
+        "2 l",
+        "2,5 l",
+        "5 l"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Ile powinniśmy pić wody po obudzeniu się?",
+      "img": "images_4750249127d2.jpg",
+      "answers": [
+        "100 ml",
+        "250 ml",
+        "500 ml"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Ile powinniśmy pić wody przed posiłkiem?",
+      "img": "images_10b72db9828a.jpg",
+      "answers": [
+        "300 ml",
+        "400 ml",
+        "500 ml"
+      ],
+      "good": "2"
+    },
+    {
+      "title": "Ile powinniśmy pić wody w trakcie godzinnego treningu?",
+      "img": "images_336c3439f9ba.jpg",
+      "answers": [
+        "100 ml",
+        "500 ml",
+        "1 l"
+      ],
+      "good": "2"
+    },
+    {
+      "title": "Ile powinniśmy wypić wody podczas bólu głowy?",
+      "img": "images_420758077702.jpg",
+      "answers": [
+        "800 ml",
+        "1 l",
+        "2 l"
+      ],
+      "good": "1"
+    },
+    {
+      "title": "Ile powinniśmy pić wody przed snem?",
+      "img": "images_af67e94be3d7.jpg",
+      "answers": [
+        "250 ml",
+        "500 ml",
+        "750 ml"
+      ],
+      "good": "0"
+    },
+    {
+      "title": "Jaka woda jest najlepsza do picia?",
+      "img": "images_73287731f779.jpg",
+      "answers": [
+        "Mineralna",
+        "Stołowa",
+        "Źródlana"
+      ],
+      "good": "2"
+    }
+  ],
+  "resultImg": "images_a07c5aab9482.jpg"
+}

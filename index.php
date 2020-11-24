@@ -1,15 +1,20 @@
-<?php
-
-$sideName = explode('?', $_SERVER['REQUEST_URI'])[0];
-
-$router = [
-  '/category' => './views/category.phtml',
-  '/popular' => './views/popular.phtml',
-  '/new' => './views/new.phtml',
-  '/by-me' => './views/by-me.phtml',
-  '/search' => './views/search.phtml',
-  '/add' => './views/add.phtml',
-  '/q' => './views/q.phtml'
-];
-
-require @$router[$sideName]?:'./views/main.phtml';
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <?php require './partial/style.php' ?>
+  <title>Main</title>
+  <?php
+    require './php/index-code.php';
+    require './php/my-sql-n.php';
+    $mysql = new MySqlN();
+    $indexCode = new IndexCode(
+      $mysql->getQBarQ(20)
+    );
+  ?>
+</head>
+<body>
+  <?php require './template/base.php' ?>
+</body>
+</html>

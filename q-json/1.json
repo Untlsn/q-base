@@ -1,12 +1,93 @@
 {
   "questions": [
     {
-      "title": "Czy chciałbyś być czarownicą?",
+      "title": "Pierwszy polski król był koronowany najprawdopodobniej:",
+      "img": "images_a82a57146ed1.jpg",
       "answers": [
-        "Tak, to moje marzenie",
-        "Chętnie bym spróbował",
-        "Nie, to beznadziejne"
-      ]
+        "1 maja 992 roku",
+        "26 lipca 1018 roku",
+        "18 kwietnia 1025 roku"
+      ],
+      "good": 2
+    },
+    {
+      "title": "W 1138 roku rozpoczęło się:",
+      "img": "images_a82a57146ed1.jpg",
+      "answers": [
+        "Robicie dzielnicowe.",
+        "Panowanie Bolesława Krzywoustego.",
+        "Panowanie dynastii Jagiellonów."
+      ],
+      "good": 0
+    },
+    {
+      "title": "Bitwa pod Grunwaldem miała miejsce:",
+      "img": "images_a82a57146ed1.jpg",
+      "answers": [
+        "15 sierpień 1410",
+        "15 sierpień 1409",
+        "15 lipca 1410"
+      ],
+      "good": 2
+    },
+    {
+      "title": "Potop szwedzki miał miejsce:",
+      "img": "images_a82a57146ed1.jpg",
+      "answers": [
+        "W połowie XVI w.",
+        "W połowie XVII w.",
+        "W połowie XVIII w."
+      ],
+      "good": 1
+    },
+    {
+      "title": "Wydarzenie, które miało miejsce w 1569 roku to:",
+      "img": "images_a82a57146ed1.jpg",
+      "answers": [
+        "Hołd pruski.",
+        "Unia Lubelska z Litwą.",
+        "Pierwsza wolna elekcja."
+      ],
+      "good": 1
+    },
+    {
+      "title": "Kiedy miał miejsce I rozbiór Polski?",
+      "img": "images_a82a57146ed1.jpg",
+      "answers": [
+        "W 1793 roku.",
+        "W 1795 roku.",
+        "Żadna odpowieź."
+      ],
+      "good": 2
+    },
+    {
+      "title": "W 1830 roku wybuchło:",
+      "img": "images_a82a57146ed1.jpg",
+      "answers": [
+        "Powstanie krakowskie.",
+        "Powstanie listopadowe.",
+        "Powstanie styczniowe."
+      ],
+      "good": 1
+    },
+    {
+      "title": "II wojna światowa rozpoczęła się atakiem Niemiec na Polskę:",
+      "img": "images_a82a57146ed1.jpg",
+      "answers": [
+        "1 września 1939 roku",
+        "3 września 1939 roku"
+      ],
+      "good": 0
+    },
+    {
+      "title": "\"Poznański czerwiec\" miał miejsce w:",
+      "img": "images_a82a57146ed1.jpg",
+      "answers": [
+        "1968 roku",
+        "1956 roku"
+      ],
+      "good": 1
     }
-  ]
+  ],
+  "resultImg": "images_e3c8c0e5590b.jpg"
 }

@@ -1,0 +1,95 @@
+{
+  "questions": [
+      {
+          "title": "Dzieci w tym kraju zaczynają naukę w wieku 4 lat.",
+          "img": "images_b59ed6c090ae.jpg",
+          "answers": [
+              "Wielka Brytania",
+              "USA"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "W wieku 14 lat jest zdawany tam egzamin GCSE.",
+          "img": "images_6ede37cd4bf8.jpg",
+          "answers": [
+              "Wielka Brytania",
+              "USA"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "W tym kraju jest 12 klas.",
+          "img": "images_28d63613319d.jpg",
+          "answers": [
+              "Wielka Brytania",
+              "USA"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "Skala ocen w tym kraju to 1-9.",
+          "img": "images_9c7c2aad2fb6.jpg",
+          "answers": [
+              "Wielka Brytania",
+              "USA"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "Podział szkół na elementary school, middle school i high school jest charakterystyczny dla:",
+          "img": "images_aa704652df97.jpg",
+          "answers": [
+              "Wielkiej Brytanii",
+              "USA"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "Sekwencyjna nauka takich przedmiotów jak matematyka jest w:",
+          "img": "images_1011a8d9498f.jpg",
+          "answers": [
+              "Wielkiej Brytanii",
+              "USA"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "Większy nacisk na egzaminy jest w:",
+          "img": "images_28351ee04a2f.jpeg",
+          "answers": [
+              "Wielkiej Brytanii",
+              "USA"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "W tym kraju nie ma mundurków w szkołach publicznych.",
+          "img": "images_26e45831da73.jpg",
+          "answers": [
+              "Wielka Brytania",
+              "USA"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "ACT i SAT to egzaminy wielokrotnego wyboru niezbędny do nauki na studiach.",
+          "img": "images_410e29c967c1.jpg",
+          "answers": [
+              "Wielka Brytania",
+              "USA"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "Uczniowie spoza miasta są przywożeni żółtymi busami.",
+          "img": "images_46f0adc92ef9.jpg",
+          "answers": [
+              "Wielka Brytania",
+              "USA"
+          ],
+          "good": "1"
+      }
+  ],
+  "resultImg": "images_7ba8daf4a6ab.jpg"
+}

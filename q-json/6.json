@@ -1,0 +1,149 @@
+{
+  "questions": [
+      {
+          "title": "Fermentacja wina:",
+          "img": "filing_images_fff681420a48.jpg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "Korozja metali:",
+          "img": "filing_images_330be193ee3a.jpg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "Mielenie kawy:",
+          "img": "filing_images_b01eae257e44-1.jpeg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "Topnienie lodu:",
+          "img": "filing_images_c6243286ac5d.jpg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "Kwaśnienie mleka:",
+          "img": "filing_images_79795c442636.jpeg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "Spalenie kartki:",
+          "img": "filing_images_5ba095df6ea0.jpeg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczn"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "Tłuczenie szkła:",
+          "img": "filing_images_f4ad2299f6d2-1.jpeg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "Gotowanie się wody:",
+          "img": "filing_images_39f8ffabdffc.jpeg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "Upieczenie ciasta:",
+          "img": "filing_images_009ea6e542f3.jpg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "Pleśnienie chleba:",
+          "img": "filing_images_194c475687be-1.jpeg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "Ubijanie jajek:",
+          "img": "filing_images_08577a8b53b0.jpg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "Oddychanie:",
+          "img": "filing_images_fd9509572b63.jpg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "1"
+      },
+      {
+          "title": "Spalanie węgla:",
+          "img": "filing_images_dd14a6a1461f.jpg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "Uderzenie jabłka o ziemię:",
+          "img": "filing_images_03f65307bc30.jpg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "Powstawanie szronu:",
+          "img": "filing_images_d33b40f41322-79.jpg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "0"
+      },
+      {
+          "title": "Trawienie:",
+          "img": "filing_images_6e63d3f3de88.jpeg",
+          "answers": [
+              "Zjawisko fizyczne",
+              "Reakcja chemiczna"
+          ],
+          "good": "1"
+      }
+  ],
+  "resultImg": "filing_images_0243be8079a5.jpeg"
+}
