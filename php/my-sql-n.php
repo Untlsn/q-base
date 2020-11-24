@@ -4,12 +4,9 @@ class MySqlN {
   private $QBARQ_BASE = "SELECT id, title, description, author, likes, img_name ";
   function __construct(){
     $this->conn = new mysqli('localhost', 'root', '', 'qbase');
+    $this->conn->set_charset('utf8_polish_ci');
   }
-
-  function getCategories() {
-    $sqlCode = "SELECT * FROM category";
-    return $this->getAssoc($sqlCode);
-  }
+  
   function getQBarQ(int $limit) {
     $sqlCode = "$this->QBARQ_BASE from qbarq ORDER BY RAND() LIMIT $limit";
     return $this->getAssoc($sqlCode);
